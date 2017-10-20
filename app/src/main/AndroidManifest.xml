@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.adhyahan.sambelapagaram">
-    <uses-feature android:name="android.hardware.camera" android:required="true" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -18,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Profil" />
-        <activity android:name=".EditFeeds"></activity>
+        <activity android:name=".EditFeeds" />
 
         <provider
             android:name="android.support.v4.content.FileProvider"
@@ -27,8 +32,10 @@
             android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_paths"></meta-data>
+                android:resource="@xml/file_paths" />
         </provider>
+
+        <activity android:name=".Login"></activity>
     </application>
 
 </manifest>
