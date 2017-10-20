@@ -26,7 +26,6 @@ import java.util.Date;
 public class Profil extends AppCompatActivity {
 
     private ImageView imageView;
-
     private static final String TAG = "MPROG Profil";
 
     @Override
@@ -34,9 +33,7 @@ public class Profil extends AppCompatActivity {
         Log.i(TAG,"onCreate");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profil);
-
         imageView = (ImageView) findViewById(R.id.imageProfil);
-
     }
 
     @Override
