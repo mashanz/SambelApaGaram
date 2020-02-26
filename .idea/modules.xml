@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidStudioProjects-SambelApaGaram.iml" filepath="$PROJECT_DIR$/AndroidStudioProjects-SambelApaGaram.iml" group="SambelApaGaram" />
       <module fileurl="file://$PROJECT_DIR$/SambelApaGaram.iml" filepath="$PROJECT_DIR$/SambelApaGaram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/SambelApaGaram-app.iml" filepath="$PROJECT_DIR$/app/SambelApaGaram-app.iml" group="SambelApaGaram/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
